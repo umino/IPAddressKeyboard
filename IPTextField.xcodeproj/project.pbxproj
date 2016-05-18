@@ -12,6 +12,8 @@
 		81BFF7ED1CEC47070077A0F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81BFF7EB1CEC47070077A0F9 /* Main.storyboard */; };
 		81BFF7EF1CEC47070077A0F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81BFF7EE1CEC47070077A0F9 /* Assets.xcassets */; };
 		81BFF7F21CEC47070077A0F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81BFF7F01CEC47070077A0F9 /* LaunchScreen.storyboard */; };
+		81BFF7FA1CEC54570077A0F9 /* IPAddressKeyboard.xib in Resources */ = {isa = PBXBuildFile; fileRef = 81BFF7F91CEC54570077A0F9 /* IPAddressKeyboard.xib */; };
+		81BFF7FC1CEC54860077A0F9 /* IPAddressKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81BFF7FB1CEC54860077A0F9 /* IPAddressKeyboard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		81BFF7EE1CEC47070077A0F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		81BFF7F11CEC47070077A0F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		81BFF7F31CEC47070077A0F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81BFF7F91CEC54570077A0F9 /* IPAddressKeyboard.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IPAddressKeyboard.xib; sourceTree = "<group>"; };
+		81BFF7FB1CEC54860077A0F9 /* IPAddressKeyboard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IPAddressKeyboard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +59,8 @@
 			isa = PBXGroup;
 			children = (
 				81BFF7E71CEC47070077A0F9 /* AppDelegate.swift */,
+				81BFF7FB1CEC54860077A0F9 /* IPAddressKeyboard.swift */,
+				81BFF7F91CEC54570077A0F9 /* IPAddressKeyboard.xib */,
 				81BFF7E91CEC47070077A0F9 /* ViewController.swift */,
 				81BFF7EB1CEC47070077A0F9 /* Main.storyboard */,
 				81BFF7EE1CEC47070077A0F9 /* Assets.xcassets */,
@@ -123,6 +129,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				81BFF7F21CEC47070077A0F9 /* LaunchScreen.storyboard in Resources */,
+				81BFF7FA1CEC54570077A0F9 /* IPAddressKeyboard.xib in Resources */,
 				81BFF7EF1CEC47070077A0F9 /* Assets.xcassets in Resources */,
 				81BFF7ED1CEC47070077A0F9 /* Main.storyboard in Resources */,
 			);
@@ -137,6 +144,7 @@
 			files = (
 				81BFF7EA1CEC47070077A0F9 /* ViewController.swift in Sources */,
 				81BFF7E81CEC47070077A0F9 /* AppDelegate.swift in Sources */,
+				81BFF7FC1CEC54860077A0F9 /* IPAddressKeyboard.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -199,7 +207,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -239,7 +247,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -288,6 +296,7 @@
 				81BFF7F81CEC47070077A0F9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

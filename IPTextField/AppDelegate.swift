@@ -2,8 +2,8 @@
 //  AppDelegate.swift
 //  IPTextField
 //
-//  Created by 戸嶋誠 on 2016/05/18.
-//  Copyright © 2016年 戸嶋誠. All rights reserved.
+//  Created by M.Toshima on 2016/05/18.
+//  Copyright © 2016年 M.Toshima. All rights reserved.
 //
 
 import UIKit
