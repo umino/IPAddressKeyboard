@@ -41,28 +41,13 @@ class IPAddressKeyboard: UIView {
     func commInit() {
 //        let view = NSBundle.mainBundle().loadNibNamed("IPAddressKeyboard", owner: self, options: nil).first as! UIView
         NSBundle.mainBundle().loadNibNamed("IPAddressKeyboard", owner: self, options: nil)
-        //大事
-        contentView.frame = CGRectMake(0, 0, UIScreen.mainScreen().bounds.size.width, 120)
+        
+        contentView.frame = CGRectMake(0, 0, UIScreen.mainScreen().bounds.size.width, contentView.frame.height)
         frame = CGRectMake(0, 0, UIScreen.mainScreen().bounds.size.width, contentView.frame.height)
         
         addSubview(contentView)
         
-        //不要か
         translatesAutoresizingMaskIntoConstraints = true
-//        contentView.translatesAutoresizingMaskIntoConstraints = false
-//        contentView.autoresizingMask = [.FlexibleWidth, .FlexibleHeight]
-//        autoresizingMask = [.FlexibleWidth, .FlexibleHeight]
-        
-//        let bindings = ["view": contentView]
-//        addConstraints(NSLayoutConstraint.constraintsWithVisualFormat("H:|-0-[view]-0-|",
-//            options: NSLayoutFormatOptions(rawValue: 0),
-//            metrics: nil,
-//            views: bindings))
-//
-//        addConstraints(NSLayoutConstraint.constraintsWithVisualFormat("V:|-0-[view]-0-|",
-//            options: NSLayoutFormatOptions(rawValue: 0),
-//            metrics: nil,
-//            views: bindings))
     }
     
     
