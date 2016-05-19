@@ -108,6 +108,9 @@
                     <state key="normal" title="1">
                         <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </state>
+                    <connections>
+                        <action selector="pushNumButton:" destination="-1" eventType="touchUpInside" id="B42-6f-BJa"/>
+                    </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Pr-2N-ns8">
                     <rect key="frame" x="62" y="0.0" width="60" height="60"/>
@@ -115,6 +118,9 @@
                     <state key="normal" title="2">
                         <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </state>
+                    <connections>
+                        <action selector="pushNumButton:" destination="-1" eventType="touchUpInside" id="7T0-GP-RRb"/>
+                    </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0a4-Im-qg3">
                     <rect key="frame" x="124" y="0.0" width="60" height="60"/>
@@ -122,6 +128,9 @@
                     <state key="normal" title="3">
                         <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </state>
+                    <connections>
+                        <action selector="pushNumButton:" destination="-1" eventType="touchUpInside" id="iNH-ak-wYn"/>
+                    </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="66T-4M-AnK">
                     <rect key="frame" x="186" y="0.0" width="60" height="60"/>
@@ -129,6 +138,9 @@
                     <state key="normal" title="4">
                         <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </state>
+                    <connections>
+                        <action selector="pushNumButton:" destination="-1" eventType="touchUpInside" id="gen-Xk-dwk"/>
+                    </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Syi-w3-Odz">
                     <rect key="frame" x="248" y="0.0" width="60" height="60"/>
@@ -136,6 +148,9 @@
                     <state key="normal" title="5">
                         <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </state>
+                    <connections>
+                        <action selector="pushNumButton:" destination="-1" eventType="touchUpInside" id="Piy-EO-AxW"/>
+                    </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="41g-LA-ubh">
                     <rect key="frame" x="310" y="0.0" width="60" height="60"/>
@@ -143,6 +158,9 @@
                     <state key="normal" title="6">
                         <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </state>
+                    <connections>
+                        <action selector="pushNumButton:" destination="-1" eventType="touchUpInside" id="Wfe-eF-y1T"/>
+                    </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wOz-dN-HmI">
                     <rect key="frame" x="372" y="0.0" width="60" height="60"/>
@@ -151,7 +169,7 @@
                         <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </state>
                     <connections>
-                        <action selector="pushNumButton:" destination="-1" eventType="touchUpInside" id="eTB-E5-vmW"/>
+                        <action selector="pushNumButton:" destination="-1" eventType="touchUpInside" id="sPe-Se-sW4"/>
                     </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="POI-JT-bMS">
@@ -160,6 +178,9 @@
                     <state key="normal" title="8">
                         <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </state>
+                    <connections>
+                        <action selector="pushNumButton:" destination="-1" eventType="touchUpInside" id="voI-NE-QGg"/>
+                    </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gx1-q1-BC1">
                     <rect key="frame" x="496" y="0.0" width="60" height="60"/>
@@ -167,6 +188,9 @@
                     <state key="normal" title="9">
                         <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </state>
+                    <connections>
+                        <action selector="pushNumButton:" destination="-1" eventType="touchUpInside" id="zy2-Qq-SNs"/>
+                    </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DiT-MF-GzN">
                     <rect key="frame" x="558" y="0.0" width="60" height="60"/>
@@ -174,6 +198,9 @@
                     <state key="normal" title="0">
                         <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </state>
+                    <connections>
+                        <action selector="pushNumButton:" destination="-1" eventType="touchUpInside" id="Hjp-J5-yKf"/>
+                    </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ibk-Lz-7f5">
                     <rect key="frame" x="620" y="0.0" width="60" height="60"/>
@@ -185,20 +212,20 @@
                         <action selector="pushDotButton:" destination="-1" eventType="touchUpInside" id="pjc-Bi-sGq"/>
                     </connections>
                 </button>
-                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Q8h-ag-OMU">
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Q8h-ag-OMU">
                     <rect key="frame" x="682" y="0.0" width="60" height="60"/>
                     <color key="backgroundColor" red="0.20000000300000001" green="0.20000000300000001" blue="0.20000000300000001" alpha="1" colorSpace="calibratedRGB"/>
-                    <state key="normal" title="BS">
+                    <state key="normal" image="Keyboard_BS.png">
                         <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </state>
                     <connections>
                         <action selector="pushBackspaceButton:" destination="-1" eventType="touchUpInside" id="z1G-W1-2Sb"/>
                     </connections>
                 </button>
-                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fvM-hF-Xuk">
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fvM-hF-Xuk">
                     <rect key="frame" x="744" y="0.0" width="60" height="60"/>
                     <color key="backgroundColor" red="0.20000000300000001" green="0.20000000300000001" blue="0.20000000300000001" alpha="1" colorSpace="calibratedRGB"/>
-                    <state key="normal" title="close">
+                    <state key="normal" image="Keyboard_Close.png">
                         <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </state>
                     <connections>
@@ -315,4 +342,8 @@
             <point key="canvasLocation" x="471" y="97"/>
         </view>
     </objects>
+    <resources>
+        <image name="Keyboard_BS.png" width="40" height="30"/>
+        <image name="Keyboard_Close.png" width="40" height="40"/>
+    </resources>
 </document>
