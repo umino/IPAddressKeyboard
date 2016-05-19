@@ -40,7 +40,17 @@ class IPAddressKeyboard: UIView {
     
     func commInit() {
 //        let view = NSBundle.mainBundle().loadNibNamed("IPAddressKeyboard", owner: self, options: nil).first as! UIView
-        NSBundle.mainBundle().loadNibNamed("IPAddressKeyboard", owner: self, options: nil)
+        var nibName : String
+        switch UIDevice.currentDevice().userInterfaceIdiom {
+        case .Phone:
+            nibName = "IPAddressKeyboard"
+        case .Pad:
+            nibName = "IPAddressKeyboard_iPad"
+        default:
+            nibName = "IPAddressKeyboard"
+        }
+        
+        NSBundle.mainBundle().loadNibNamed(nibName, owner: self, options: nil)
         
         contentView.frame = CGRectMake(0, 0, UIScreen.mainScreen().bounds.size.width, contentView.frame.height)
         frame = CGRectMake(0, 0, UIScreen.mainScreen().bounds.size.width, contentView.frame.height)

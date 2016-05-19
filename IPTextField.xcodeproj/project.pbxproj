@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		815ED95F1CED6E8700B7418C /* IPAddressKeyboard_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 815ED95E1CED6E8700B7418C /* IPAddressKeyboard_iPad.xib */; };
 		81BFF7E81CEC47070077A0F9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81BFF7E71CEC47070077A0F9 /* AppDelegate.swift */; };
 		81BFF7EA1CEC47070077A0F9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81BFF7E91CEC47070077A0F9 /* ViewController.swift */; };
 		81BFF7ED1CEC47070077A0F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81BFF7EB1CEC47070077A0F9 /* Main.storyboard */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		815ED95E1CED6E8700B7418C /* IPAddressKeyboard_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IPAddressKeyboard_iPad.xib; sourceTree = "<group>"; };
 		81BFF7E41CEC47060077A0F9 /* IPTextField.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IPTextField.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		81BFF7E71CEC47070077A0F9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		81BFF7E91CEC47070077A0F9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -61,6 +63,7 @@
 				81BFF7E71CEC47070077A0F9 /* AppDelegate.swift */,
 				81BFF7FB1CEC54860077A0F9 /* IPAddressKeyboard.swift */,
 				81BFF7F91CEC54570077A0F9 /* IPAddressKeyboard.xib */,
+				815ED95E1CED6E8700B7418C /* IPAddressKeyboard_iPad.xib */,
 				81BFF7E91CEC47070077A0F9 /* ViewController.swift */,
 				81BFF7EB1CEC47070077A0F9 /* Main.storyboard */,
 				81BFF7EE1CEC47070077A0F9 /* Assets.xcassets */,
@@ -128,6 +131,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				815ED95F1CED6E8700B7418C /* IPAddressKeyboard_iPad.xib in Resources */,
 				81BFF7F21CEC47070077A0F9 /* LaunchScreen.storyboard in Resources */,
 				81BFF7FA1CEC54570077A0F9 /* IPAddressKeyboard.xib in Resources */,
 				81BFF7EF1CEC47070077A0F9 /* Assets.xcassets in Resources */,
