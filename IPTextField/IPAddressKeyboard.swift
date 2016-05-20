@@ -45,7 +45,7 @@ class IPAddressKeyboard: UIView {
         case .Phone:
             nibName = "IPAddressKeyboard"
         case .Pad:
-            nibName = "IPAddressKeyboard_iPad"
+            nibName = "IPAddressKeyboard~iPad"
         default:
             nibName = "IPAddressKeyboard"
         }
