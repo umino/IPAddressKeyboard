@@ -2,7 +2,8 @@ IPAddressKeyboard
 ==================
 IPAddress keyboard is a library to display a keyboard that specializes in the input of the only IP Address for UITextField / UITextView.
   
-![screenshot](assets/screenshot.png)
+![iPhone screenshot](assets/screenshot.png)
+![iPad screenshot](assets/screenshot~ipad.png)
   
 # USAGE #
 ----------
