@@ -159,20 +159,20 @@
                         <action selector="pushDotButton:" destination="-1" eventType="touchUpInside" id="uEu-oS-doJ"/>
                     </connections>
                 </button>
-                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LFw-0Y-LWq">
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LFw-0Y-LWq">
                     <rect key="frame" x="62" y="124" width="60" height="60"/>
                     <color key="backgroundColor" red="0.20000000300000001" green="0.20000000300000001" blue="0.20000000300000001" alpha="1" colorSpace="calibratedRGB"/>
                     <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    <state key="normal" title="BS"/>
+                    <state key="normal" image="Keyboard_BS.png"/>
                     <connections>
                         <action selector="pushBackspaceButton:" destination="-1" eventType="touchUpInside" id="iw4-bM-PeR"/>
                     </connections>
                 </button>
-                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2di-1a-0aU">
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2di-1a-0aU">
                     <rect key="frame" x="124" y="124" width="184" height="60"/>
                     <color key="backgroundColor" red="0.20000000300000001" green="0.20000000300000001" blue="0.20000000300000001" alpha="1" colorSpace="calibratedRGB"/>
                     <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    <state key="normal" title="close"/>
+                    <state key="normal" image="Keyboard_Close.png"/>
                     <connections>
                         <action selector="pushCloseButton:" destination="-1" eventType="touchUpInside" id="JS1-nF-ivT"/>
                     </connections>
@@ -271,4 +271,8 @@
             <point key="canvasLocation" x="148" y="239"/>
         </view>
     </objects>
+    <resources>
+        <image name="Keyboard_BS.png" width="40" height="30"/>
+        <image name="Keyboard_Close.png" width="40" height="40"/>
+    </resources>
 </document>
