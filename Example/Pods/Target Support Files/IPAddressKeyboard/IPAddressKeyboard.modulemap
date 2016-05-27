@@ -1,0 +1,6 @@
+framework module IPAddressKeyboard {
+  umbrella header "IPAddressKeyboard-umbrella.h"
+
+  export *
+  module * { export * }
+}

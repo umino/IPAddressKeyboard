@@ -1,0 +1,6 @@
+framework module Pods_IPAddressKeyboard_Example {
+  umbrella header "Pods-IPAddressKeyboard_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
