@@ -1,9 +1,9 @@
 //
 //  AppDelegate.swift
-//  IPTextField
+//  IPAddressKeyboard
 //
-//  Created by M.Toshima on 2016/05/18.
-//  Copyright © 2016年 M.Toshima. All rights reserved.
+//  Created by 戸嶋誠 on 05/27/2016.
+//  Copyright (c) 2016 戸嶋誠. All rights reserved.
 //
 
 import UIKit

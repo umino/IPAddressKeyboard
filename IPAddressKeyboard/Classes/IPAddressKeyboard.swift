@@ -9,7 +9,7 @@
 import UIKit
 
 @objc(IPAddressKeyboard)
-class IPAddressKeyboard: UIView {
+public class IPAddressKeyboard: UIView {
 
     /*
     // Only override drawRect: if you perform custom drawing.
@@ -19,7 +19,7 @@ class IPAddressKeyboard: UIView {
     }
     */
     
-    var activeTextField : UITextField? = nil
+    public var activeTextField : UITextField? = nil
     
     @IBOutlet var contentView: IPAddressKeyboard!
     @IBOutlet weak var backspaceButton: UIButton!
@@ -32,7 +32,7 @@ class IPAddressKeyboard: UIView {
         commInit()
     }
     
-    required init?(coder aDecoder: NSCoder) {
+    required public init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
         
         commInit()
@@ -50,7 +50,8 @@ class IPAddressKeyboard: UIView {
             nibName = "IPAddressKeyboard"
         }
         
-        NSBundle.mainBundle().loadNibNamed(nibName, owner: self, options: nil)
+        let bundle = NSBundle(forClass: self.dynamicType)
+        bundle.loadNibNamed(nibName, owner: self, options: nil)
         
         contentView.frame = CGRectMake(0, 0, UIScreen.mainScreen().bounds.size.width, contentView.frame.height)
         frame = CGRectMake(0, 0, UIScreen.mainScreen().bounds.size.width, contentView.frame.height)

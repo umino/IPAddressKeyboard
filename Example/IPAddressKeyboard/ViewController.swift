@@ -1,4 +1,4 @@
-//
+///Volumes/WorkArea/projects/IPAddressKeyboard/Example/Podfile
 //  ViewController.swift
 //  IPTextField
 //
@@ -8,6 +8,8 @@
 
 import UIKit
 
+import IPAddressKeyboard
+
 class ViewController: UIViewController {
 
     @IBOutlet weak var ipTextField: UITextField!
@@ -16,9 +18,10 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
+
         let ipkey = IPAddressKeyboard()
         ipkey.activeTextField = ipTextField
-        
+
         ipTextField.inputView = ipkey
         ipTextField.becomeFirstResponder()
     }
